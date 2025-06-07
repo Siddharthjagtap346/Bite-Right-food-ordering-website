@@ -136,7 +136,7 @@ In `DBConnection.java`, update:
 String url = "jdbc:mysql://localhost:3306/your_database";
 String username = "root";
 String password = "your_password";
-
+```
 
 ##📦 License
 This project is open only for viewing. Please contact the author for commercial use.
