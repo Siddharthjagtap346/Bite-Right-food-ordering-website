@@ -12,6 +12,7 @@ This is a Java-based web application for a food ordering system with separate ad
 - JavaScript, jQuery, AJAX
 - JDBC for database interaction
 - Restful API
+- Apache Tomcat Server
 
 ---
 ## 📁 Project Structure
@@ -51,7 +52,6 @@ BITERIGHT_PROJECT/
 ├── index.jsp
 ├── login.jsp
 ├── menu.jsp
-├── nav.jsp
 ├── navbar.jsp
 ├── orders.jsp
 ├── register.jsp
