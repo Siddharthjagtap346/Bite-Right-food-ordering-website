@@ -14,9 +14,50 @@ This is a Java-based web application for a food ordering system with separate ad
 - Restful API
 
 ---
+## 📁 Project Structure
 
+```
+BITERIGHT_PROJECT/
+├── css/                  # Stylesheets
+├── images/               # Images used in the project
+├── js/                   # JavaScript files
+├── lib/                  # External libraries (e.g., MySQL JDBC driver)
+├── WEB-INF/
+│   ├── classes/          # Java Servlet Classes
+│   │   ├── AdminDashboardServlet.java
+│   │   ├── AdminMenuServlet.java
+│   │   ├── CartServlet.java
+│   │   ├── DBConnection.java
+│   │   ├── DeleteMenuItemServlet.java
+│   │   ├── LoginHistoryServlet.java
+│   │   ├── LoginServlet.java
+│   │   ├── LogoutServlet.java
+│   │   ├── MenuServlet.java
+│   │   ├── OrderServlet.java
+│   │   ├── OrderStatusUpdateServlet.java
+│   │   ├── RegisterServlet.java
+│   │   └── ViewUsersServlet.java
+│   └── web.xml            # Deployment descriptor
+├── about.jsp
+├── add_menu_item.jsp
+├── admin_dashboard.jsp
+├── admin_login.jsp
+├── admin_menu.jsp
+├── admin_orders.jsp
+├── cart.jsp
+├── delete_menu_item.jsp
+├── edit_menu_item.jsp
+├── footer.jsp
+├── index.jsp
+├── login.jsp
+├── menu.jsp
+├── nav.jsp
+├── navbar.jsp
+├── orders.jsp
+├── register.jsp
+└── view_users.jsp
+```
 
-<pre> ```markdown ## 📁 Project Structure ``` BITERIGHT_PROJECT/ ├── css/ # Stylesheets ├── images/ # Images used in the project ├── js/ # JavaScript files ├── lib/ # External libraries (e.g., MySQL JDBC driver) ├── WEB-INF/ │ ├── classes/ # Java Servlet Classes │ │ ├── AdminDashboardServlet.java │ │ ├── AdminMenuServlet.java │ │ ├── CartServlet.java │ │ ├── DBConnection.java │ │ ├── DeleteMenuItemServlet.java │ │ ├── LoginHistoryServlet.java │ │ ├── LoginServlet.java │ │ ├── LogoutServlet.java │ │ ├── MenuServlet.java │ │ ├── OrderServlet.java │ │ ├── OrderStatusUpdateServlet.java │ │ ├── RegisterServlet.java │ │ └── ViewUsersServlet.java │ └── web.xml # Deployment descriptor ├── about.jsp ├── add_menu_item.jsp ├── admin_dashboard.jsp ├── admin_login.jsp ├── admin_menu.jsp ├── admin_orders.jsp ├── cart.jsp ├── delete_menu_item.jsp ├── edit_menu_item.jsp ├── footer.jsp ├── index.jsp ├── login.jsp ├── menu.jsp ├── nav.jsp ├── navbar.jsp ├── orders.jsp ├── register.jsp └── view_users.jsp ``` ``` </pre>
 ---
 
 ## 📸 Screenshots
